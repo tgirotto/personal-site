@@ -133,7 +133,7 @@ export default function HomepageFeatures(): ReactNode {
           </div>
         </div>
       </section> */}
-      <SlidingBanner />
+      {/* <SlidingBanner /> */}
       <section className={styles.features}>
         <div className="container">
           <div className="row">
