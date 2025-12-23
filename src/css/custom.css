@@ -1,0 +1,168 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Color Palette Variables */
+:root {
+  /* Primary (Brand): Slate Navy - Used for headers and sidebars */
+  --ifm-color-primary: #0F172A;
+  --ifm-color-primary-dark: #0C1221;
+  --ifm-color-primary-darker: #0B111E;
+  --ifm-color-primary-darkest: #090E19;
+  --ifm-color-primary-light: #1E293B;
+  --ifm-color-primary-lighter: #334155;
+  --ifm-color-primary-lightest: #475569;
+  
+  /* Accent: Amber/Solar Gold - Used for links, active states, and CTAs */
+  --color-amber-gold: #F59E0B;
+  --color-amber-gold-hover: #D97706;
+  --ifm-link-color: #F59E0B;
+  --ifm-link-hover-color: #D97706;
+  
+  /* Background (Light): Off-white/Ice */
+  --ifm-background-color: #F8FAFC;
+  --ifm-background-surface-color: #FFFFFF;
+  
+  /* Deep Navy for Consulting Services */
+  --color-deep-navy: #0F172A;
+  
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(15, 23, 42, 0.1);
+}
+
+/* Dark mode */
+[data-theme='dark'] {
+  --ifm-color-primary: #334155;
+  --ifm-color-primary-dark: #1E293B;
+  --ifm-color-primary-darker: #0F172A;
+  --ifm-color-primary-darkest: #0C1221;
+  --ifm-color-primary-light: #475569;
+  --ifm-color-primary-lighter: #64748B;
+  --ifm-color-primary-lightest: #94A3B8;
+  
+  --ifm-link-color: #FBBF24;
+  --ifm-link-hover-color: #FCD34D;
+  
+  /* Background (Dark): Deep Obsidian */
+  --ifm-background-color: #020617;
+  --ifm-background-surface-color: #0F172A;
+  
+  --docusaurus-highlighted-code-line-bg: rgba(245, 158, 11, 0.2);
+}
+
+/* Founding Engineer highlights - Amber Gold */
+.founding-engineer-highlight {
+  color: var(--color-amber-gold);
+  font-weight: 600;
+}
+
+.founding-engineer-section {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, rgba(245, 158, 11, 0.05) 100%);
+  border-left: 4px solid var(--color-amber-gold);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 4px;
+}
+
+/* Consulting Services section - Deep Navy (Sunlight + Steel) */
+.consulting-services-section {
+  background-color: var(--color-deep-navy);
+  color: #FFFFFF;
+  padding: 3rem 2rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+}
+
+.consulting-services-section h2,
+.consulting-services-section h3,
+.consulting-services-section h4 {
+  color: #FFFFFF;
+}
+
+.consulting-services-section p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.consulting-services-section a {
+  color: var(--color-amber-gold);
+}
+
+.consulting-services-section a:hover {
+  color: var(--color-amber-gold-hover);
+}
+
+/* Hero section styling - Dark background for "Hire me" and "Skills" buttons */
+.hero--primary {
+  background-color: #020617;
+  color: #FFFFFF;
+}
+
+.hero__title {
+  color: #FFFFFF;
+}
+
+.hero__subtitle {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #020617;
+  border-bottom: 1px solid #444951;
+}
+
+.navbar__title,
+.navbar__item {
+  color: #FFFFFF;
+}
+
+.navbar__item:hover {
+  color: var(--ifm-link-color);
+}
+
+.navbar__item--active {
+  color: var(--ifm-link-color);
+}
+
+/* Sidebar styling */
+.theme-doc-sidebar-container {
+  background-color: #020617;
+}
+
+.menu__link {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.menu__link:hover {
+  color: var(--ifm-link-color);
+}
+
+.menu__link--active {
+  color: var(--ifm-link-color);
+}
+
+/* Buttons use accent color */
+.button--primary {
+  background-color: var(--ifm-link-color);
+  border-color: var(--ifm-link-color);
+  color: #FFFFFF;
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-link-hover-color);
+  border-color: var(--ifm-link-hover-color);
+}
+
+.button--secondary {
+  background-color: var(--color-amber-gold);
+  border-color: var(--color-amber-gold);
+  color: #FFFFFF;
+}
+
+.button--secondary:hover {
+  background-color: var(--color-amber-gold-hover);
+  border-color: var(--color-amber-gold-hover);
+  color: #FFFFFF;
+}
