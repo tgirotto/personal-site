@@ -7,7 +7,6 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Tommaso Girotto',
   tagline: 'Software Engineer',
-  favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -15,16 +14,17 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://tgirotto.github.io', // Your GitHub username URL
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/personal-site/',        // The name of your repository
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  organizationName: 'tgirotto', // Usually your GitHub org/user name.
+  projectName: 'personal-site', // Usually your repo name.
+  deploymentBranch: 'main',      // The branch that will host the site
+  trailingSlash: false,
   onBrokenLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -83,8 +83,8 @@ const config: Config = {
       //   src: 'img/logo.svg',
       // },
       items: [
+        {to: '/docs/intro', label: 'Work', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/docs/intro', label: 'Past work', position: 'left'},
         {
           href: 'https://github.com/tgirotto',
           label: 'GitHub',
