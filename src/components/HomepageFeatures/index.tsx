@@ -1,6 +1,7 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 type FeatureItem = {
@@ -41,7 +42,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Internet of things',
+    title: 'Mobile development',
     // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -51,17 +52,16 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Internet of things',
+    title: 'Low-code',
     // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Streamline your business processes with low-code platforms like n8n, Make or Zaper.
       </>
     ),
   },
   {
-    title: 'Internet of things',
+    title: 'Product development',
     // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -74,15 +74,48 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({title, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
-      {/* <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div> */}
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+    <div className={clsx('col col--4', styles.featureColumn)}>
+      <div className={styles.featureCard}>
+        <div className="text--center padding-horiz--md">
+          <Heading as="h3">{title}</Heading>
+          <p>{description}</p>
+        </div>
       </div>
     </div>
+  );
+}
+
+function SlidingBanner() {
+  const baseUrl = useBaseUrl('/');
+  
+  const bannerImages = [
+    // require('@site/static/img/docusaurus.png').default,
+    require('@site/static/img/docker.png').default,
+    `${baseUrl}img/nestjs.svg`,
+    
+    require('@site/static/img/opentofu.png').default,
+    // Add more images here:
+    // require('@site/static/img/another-image.png').default,
+    // `${baseUrl}img/another-svg.svg`,
+  ];
+
+  // Duplicate images for seamless infinite loop
+  const duplicatedImages = [...bannerImages, ...bannerImages];
+
+  return (
+    <section className={styles.bannerSection}>
+      <div className="container">
+        <div className={styles.bannerContainer}>
+          <div className={styles.bannerContent}>
+            {duplicatedImages.map((image, index) => (
+              <div key={index} className={styles.bannerSlide}>
+                <img src={image} alt={`Banner ${index + 1}`} className={styles.bannerImage} />
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 
@@ -100,6 +133,7 @@ export default function HomepageFeatures(): ReactNode {
           </div>
         </div>
       </section> */}
+      <SlidingBanner />
       <section className={styles.features}>
         <div className="container">
           <div className="row">
@@ -109,6 +143,7 @@ export default function HomepageFeatures(): ReactNode {
           </div>
         </div>
       </section>
+      
     </>
   );
 }

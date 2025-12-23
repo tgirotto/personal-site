@@ -175,3 +175,21 @@ body {
   border-color: var(--color-amber-gold-hover);
   color: #FFFFFF;
 }
+
+/* Footer styling - match page background */
+.footer {
+  background-color: var(--ifm-background-color);
+}
+
+.footer__title,
+.footer__link-item {
+  color: var(--ifm-font-color-base);
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-link-color);
+}
+
+.footer__copyright {
+  color: var(--ifm-color-content-secondary);
+}
