@@ -1,6 +1,6 @@
 ---
 slug: the-right-mental-model
-title: "Starthub: the right mental model"
+title: "Starthub - the right mental model"
 # authors: [tgirotto]
 tags: [starthub]
 ---

@@ -1,6 +1,6 @@
 ---
 slug: an-ieee-for-software
-title: "Starthub: IEEE for software?"
+title: "Starthub - IEEE for software?"
 # authors: [tgirotto]
 tags: [starthub]
 ---

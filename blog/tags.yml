@@ -13,7 +13,7 @@ docusaurus:
   permalink: /docusaurus
   description: Docusaurus tag description
 
-hola:
-  label: Hola
+starthub:
+  label: starthub
   permalink: /hola
-  description: Hola tag description
+  description: Starthub

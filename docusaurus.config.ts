@@ -19,6 +19,8 @@ const config: Config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',        // The name of your repository
 
+  favicon: 'img/lego.png',
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'tgirotto', // Usually your GitHub org/user name.
@@ -84,6 +86,7 @@ const config: Config = {
       //   src: 'img/logo.svg',
       // },
       items: [
+        {to: '/about', label: 'About', position: 'left'},
         {to: '/work/intro', label: 'Work', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
