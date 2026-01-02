@@ -54,7 +54,7 @@ In this blog, the "IKEA approach" is instead intended as being at a higher level
 
 There might be a few reasons why this could make sense:
 
-* Most real world business cloud applications are fairly well-defined. A fleet-tracking system, a bus-ticketing platform, an IoT platform. Of course, each system has its own kinks, but it is often cheaper to modify a pre-existing system rather than building a completely new system.
+* Most real world business cloud applications are fairly well-defined. A fleet-tracking system, a bus-ticketing platform, an IoT platform. Of course, each system has its own quirks, but it is often cheaper to modify a pre-existing system rather than building a completely new system.
 
 * Most software developers, agencies or software houses have unused software lying around that was used at some point to solve real-world problems. Being able to package their software a have **passive income** from it would benefit them.
 
