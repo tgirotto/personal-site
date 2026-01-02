@@ -5,7 +5,7 @@ title: "Starthub - the right mental model"
 tags: [starthub]
 ---
 
-Over the past few months I have been thinking quite a bit about what a tool to deploy stacks of arbitrary complexity should look like. I have already written two blog posts about the [rationale](https://tommaso-girotto.co/blog/an-ikea-for-software) and best [level of abstraction](https://tommaso-girotto.co/blog/levels-of-abstraction) to implement it. So far it looks like some kind of orhestration engine powered by Docker/WebAssembly. This would allow to package systems (frontend, backend, any kind really) of arbitrary complexity, potentially allowing to run UI-based configuration steps automatically. This is far from a complete model though, and many questions are still unanswered.
+Over the past few months I have been thinking quite a bit about what a tool to deploy stacks of arbitrary complexity should look like. I have already written two blog posts about the [rationale](https://tommaso-girotto.co/blog/an-ikea-for-software) and best [level of abstraction](https://tommaso-girotto.co/blog/levels-of-abstraction) to implement it. So far, it looks like some kind of orhestration engine powered by Docker/WebAssembly. This would allow to package systems (frontend, backend, any kind really) of arbitrary complexity, potentially allowing to run UI-based configuration steps automatically. This is far from a complete model though, and many questions are still unanswered.
 
 ### Are "packages" just cloud primitives?
 
