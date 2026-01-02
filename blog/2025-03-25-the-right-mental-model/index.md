@@ -35,4 +35,4 @@ A CLI sounds like the best compromise. In fact, a CLI would:
 * be already familiar to developers
 * allow for local, zero-trust execution of actions
 
-It sounds like Starthub might then look like a CLI tool that, used against a registry, allows for composable actions to be downloaded, configured and run on an arbitrary machine.
+In conclusion, Starthub is starting to look like a CLI tool that, used against a registry, allows for composable actions to be downloaded, configured and run on an arbitrary machine.
