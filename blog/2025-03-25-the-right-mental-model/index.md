@@ -21,7 +21,7 @@ From a philosophical standpoint, this bit is particularly important, because it 
 
 ### Should actions have access to the file system?
 
-Yes. If we want actions to be able to perform configurations and run locally.
+Yes. If we want actions to be able to perform configurations and be able to create and modify local files (for example, an app to be configured with social login), then they would need access to the fs.
 
 ### Where should actions run?
 
