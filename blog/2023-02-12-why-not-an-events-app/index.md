@@ -1,6 +1,6 @@
 ---
 slug: why-not-an-events-app
-title: "Building Eventful"
+title: "Why there is no universal events app"
 # authors: [tgirotto]
 tags: [eventful, events]
 ---

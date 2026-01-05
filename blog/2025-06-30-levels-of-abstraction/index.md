@@ -1,6 +1,6 @@
 ---
 slug: levels-of-abstraction
-title: "Starthub - the right level of abstraction"
+title: "Starthub - levels of abstraction"
 # authors: [tgirotto]
 tags: [starthub]
 ---

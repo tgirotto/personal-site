@@ -2,6 +2,6 @@
 sidebar_position: 2
 ---
 
-# An IKEA for software?
+# Starthub manifest format
 
-At the current company I work for, I have started dealing with the 
+Let's assume there is a set of 
