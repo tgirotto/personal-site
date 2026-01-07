@@ -94,4 +94,4 @@ Given the relational nature of the data, a SQL database should cover most of the
 
 * Low enough UI latency
 
-* Repackaging for Play Store and App Store if needed, while avoiding publication hell every time an API endpoint changes.
+* Repackaging for Play Store and App Store if needed, while avoiding publication hell every time an API endpoint changes

@@ -21,7 +21,7 @@ function HomepageHeader() {
           <a
             className="button button--secondary button--lg"
             href="mailto:your-email@example.com?subject=Hiring Inquiry&body=Hi Tommaso,%0D%0A%0D%0AI'm interested in discussing potential opportunities.%0D%0A%0D%0ABest regards">
-            Hire me
+            Get in touch
           </a>
           <Link
             className="button button--secondary button--lg"
