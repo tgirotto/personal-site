@@ -12,22 +12,12 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'DevOps',
-    // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
     title: 'Backend development',
     // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        I have helped develop a financial transaction engine for the sale of energy in mini-grids in Sub Saharan Africa. It is currently
+        used by thousands of customers.
       </>
     ),
   },
@@ -36,8 +26,16 @@ const FeatureList: FeatureItem[] = [
     // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        I have built a remote monitoring system for refrigeration units in supermarkets and hospitals in Italy.
+      </>
+    ),
+  },
+  {
+    title: 'DevOps',
+    // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        I have built an "npm for actions" that uses OpenTofu, Docker and Digital Ocean to deploy complex cloud architectures.
       </>
     ),
   },
@@ -46,27 +44,25 @@ const FeatureList: FeatureItem[] = [
     // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        I have built a Google Pay clone for Venezuela using React Native and a Flutter-based mobile, offline-first ERP system for small businesses in Sub Saharan Africa.
       </>
     ),
   },
   {
-    title: 'Low-code',
+    title: 'ETL',
     // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Streamline your business processes with low-code platforms like n8n, Make or Zaper.
+        I have built data pipelines to track the performance of solar assets in remote communities in Sub Saharan Africa using Timescale and NestJS.
       </>
     ),
   },
   {
-    title: 'Product development',
+    title: 'Industrial automation',
     // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        I have used JavaScript and Node.js to industrial heat pumps for commercial and industrial settings in Italy.
       </>
     ),
   },

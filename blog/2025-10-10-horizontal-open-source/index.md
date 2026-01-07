@@ -1,8 +1,10 @@
 ---
 slug: horizontal-open-source-deployments
-title: "Starthub - horizontal open source deployments"
+title: "Horizontal open source deployments"
 # authors: [tgirotto]
 tags: [starthub, software]
 ---
 
-<!-- truncate -->
+Lately I've noticed a new 
+
+These tools

@@ -1,8 +1,22 @@
 ---
 slug: yapago
-title: "Building Yapago"
+title: "A Google Pay for Venezuela"
 # authors: [tgirotto]
 tags: [yapago, software]
 ---
 
-<!-- truncate -->
+I am currently in Venezuela, visiting a dear friend. This being the first time in this country...
+
+I was surprised to see how widespread Binance is. 
+
+### Technical implementation
+
+
+
+### Landscape
+
+* Pago Movil
+
+* Binance
+
+### Takeaway: we accidentally built a wrapper

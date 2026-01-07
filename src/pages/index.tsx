@@ -26,7 +26,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/work/intro">
-            Work
+            Past work
           </Link>
         </div>
       </div>

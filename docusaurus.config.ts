@@ -87,7 +87,7 @@ const config: Config = {
       // },
       items: [
         {to: '/about', label: 'About', position: 'left'},
-        {to: '/work/intro', label: 'Work', position: 'left'},
+        {to: '/work/intro', label: 'Past work', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/tgirotto',
