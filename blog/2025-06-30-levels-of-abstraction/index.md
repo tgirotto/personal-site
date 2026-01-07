@@ -7,6 +7,8 @@ tags: [starthub]
 
 Over the past weeks I have been spending a non-negligible amount of time working with [Supabase](https://supabase.com/), a platform for backend development that has exploded in popularity in the recent years. Sitting on top of Postgres, Supabase uses classic SQL dumps to dump and restore a database schema. SQL dumps are not just snapshots of a database, but can be seen as a way to package the entire business logic of a company. At the same time, in [one](https://tommaso-girotto.co/blog/an-ikea-for-software) of my past blog posts I explored the idea of a top-to-bottom approach to building software, where an entire system could be deployed with a single command independently of the amount and complexity of its components. The question needs then to be asked: could SQL be the right tool to package entire systems, so they can be exchanged, traded and deployed in a standardised way? And, if not, what would such a tool look like? What would be the best **level of abstraction** to work at?
 
+<!-- truncate -->
+
 ### Iteration 1: SQL
 
 Takeaways:

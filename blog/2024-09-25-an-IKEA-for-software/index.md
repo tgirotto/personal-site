@@ -9,6 +9,8 @@ The company I currently work for offers a software platform to manage solar mini
 
 Yet, it took us about a year to reach a production-grade setup. RLS rules, social login, embedding of a Grafana charts in the frontend, setting up a timeseries database a double entry accounting system took us months to get right. During that year, I often wondered about a faster, simpler way to get started from a ready-made, use-case-focused template instead of rebuilding everything, once again, from scratch. After all, our system was not too different from, say, one of those fleet-tracking systems that are commonly offered in the market I guess?
 
+<!-- truncate -->
+
 We could:
 
 * Buy a **closed-source**, **ready-made** system. However, there seemed to be no marketplace that sold systems that we could fully own and customise according to our needs. At best there are marketplaces for UI components or entire frontends, which are hard to customise against a specific database schema.

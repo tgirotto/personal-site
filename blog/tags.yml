@@ -17,3 +17,63 @@ starthub:
   label: starthub
   permalink: /hola
   description: Starthub
+
+lorawan:
+  label: lorawan
+  permalink: /lorawan
+  description: Lorawan
+
+yapago:
+  label: Yapago
+  permalink: /yapago
+  description: Yapago
+
+software:
+  label: Software
+  permalink: /software
+  description: Software
+
+javascript:
+  label: JavaScript
+  permalink: /javascript
+  description: JavaScript
+
+industrial:
+  label: Industrial
+  permalink: /industrial
+  description: Industrial
+
+refrigeration:
+  label: Refrigeration
+  permalink: /refrigeration
+  description: Refrigeration
+
+remote:
+  label: Remote
+  permalink: /remote
+  description: Remote
+
+eventful:
+  label: Eventful
+  permalink: /eventful
+  description: Eventful
+
+events:
+  label: Events
+  permalink: /events
+  description: Events
+
+tanzania:
+  label: Tanzania
+  permalink: /tanzania
+  description: Tanzania
+
+operations:
+  label: Operations
+  permalink: /operations
+  description: Operations
+
+solar:
+  label: Solar
+  permalink: /solar
+  description: Solar

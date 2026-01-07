@@ -7,6 +7,8 @@ tags: [starthub]
 
 Over the past few months I have been thinking quite a bit about what a tool to deploy stacks of arbitrary complexity should look like. I have already written two blog posts about the [rationale](https://tommaso-girotto.co/blog/an-ikea-for-software) and best [level of abstraction](https://tommaso-girotto.co/blog/levels-of-abstraction) to implement it. So far, it looks like some kind of orhestration engine powered by Docker/WebAssembly. This would allow to package systems (frontend, backend, any kind really) of arbitrary complexity, potentially allowing to run UI-based configuration steps automatically. This is far from a complete model though, and many questions are still unanswered.
 
+<!-- truncate -->
+
 ### Are "packages" just cloud primitives?
 
 It does not look like that is the case. In fact, some of these "packages" could very well be purely about configuration. For example, a step that logs into a user's Google Cloud Platform account and copies the credentials into the environment variables of a Vue app that is going to be deployed to Netlify would not map to a cloud primitive. Instead, it sounds like we would need a model that is a little more generic, where an a "package" can be about deploying infrastructure, as well as configuring existing software and more; in other words, a model where a unit can perform any task a human being would be able to perform when deploying a new system.

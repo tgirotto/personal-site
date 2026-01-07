@@ -11,6 +11,8 @@ Every few months I see a new "events" app come up. By "events" I mean music conc
 
 However, I have not seen any catch up
 
+<!-- truncate -->
+
 ### The landscape
 
 These are the available solutions I can think of:
@@ -23,7 +25,7 @@ These are the available solutions I can think of:
 
 * [Songkick](https://www.songkick.com/) and similar music concert apps. Since they are only focused on music events, they net they cast is not wide enough to capture mainstream interest.
 
-* Ticketing platforms. [https://www.ticketmaster.com/](Ticketmaster) only promote events they manage.
+* Ticketing platforms. [Ticketmaster](https://www.ticketmaster.com/) only promote events they manage.
 
 * City official web sites. Berlin is a [great example](https://www.berlin.de/en/tickets/today/).
 
