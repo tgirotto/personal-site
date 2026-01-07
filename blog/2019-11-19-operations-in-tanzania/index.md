@@ -5,3 +5,4 @@ title: "Running operations in Tanzania"
 tags: [tanzania, operations, solar]
 ---
 
+<!-- truncate -->

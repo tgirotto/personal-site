@@ -7,6 +7,8 @@ tags: []
 
 Recently I have had to implement a token generation system to help customers buy energy in solar minigrids. The [STS](https://www.sts.org.za/) standard is widely used in Sub Saharan countries, and it specifies how tokens should be generated to control energy, gas and water meters. Most smart energy meters deployed in the Sub Saharan region follow [62055-41](https://webstore.iec.ch/en/publication/28425). For the ones that do not know (I didn't), IEC specifications are international technical standards published by the [IEC](https://iec.ch/homepage) (International Electrotechnical Commission). They define how electrical, electronic, and digital systems should be designed, built, tested, and made interoperable. Reading such kind of specification for the first time made me wonder about why such specifications are needed, why they are not mainstream in the world of software and whether they could add value to it.
 
+<!-- truncate -->
+
 ### Do international standards really not exist in world of software?
 
 Some IEC specifications that are purely about software. Here are some examples:

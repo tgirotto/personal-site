@@ -5,3 +5,4 @@ title: "Running operations in Tanzania"
 tags: [lorawan]
 ---
 
+<!-- truncate -->

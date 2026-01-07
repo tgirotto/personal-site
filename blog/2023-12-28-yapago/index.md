@@ -5,3 +5,4 @@ title: "Building Yapago"
 tags: [yapago, software]
 ---
 
+<!-- truncate -->

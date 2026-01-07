@@ -5,3 +5,4 @@ title: "Realities of remote work"
 tags: [remote, software]
 ---
 
+<!-- truncate -->

@@ -5,3 +5,4 @@ title: "Decentralised software"
 tags: [remote, software]
 ---
 
+<!-- truncate -->

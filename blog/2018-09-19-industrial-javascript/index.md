@@ -5,3 +5,4 @@ title: "Industrial javascript"
 tags: [javascript, industrial]
 ---
 
+<!-- truncate -->

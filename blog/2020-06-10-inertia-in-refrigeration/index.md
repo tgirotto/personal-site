@@ -5,3 +5,4 @@ title: "Inertia in refrigeration"
 tags: [refrigeration, software]
 ---
 
+<!-- truncate -->
