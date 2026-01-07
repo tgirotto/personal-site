@@ -1,22 +1,7 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
-
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
-
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
 starthub:
   label: starthub
-  permalink: /hola
-  description: Starthub
+  permalink: /starthub
+  description: starthub
 
 lorawan:
   label: lorawan
@@ -24,56 +9,56 @@ lorawan:
   description: Lorawan
 
 yapago:
-  label: Yapago
+  label: yapago
   permalink: /yapago
   description: Yapago
 
 software:
-  label: Software
+  label: software
   permalink: /software
   description: Software
 
 javascript:
-  label: JavaScript
+  label: javascript
   permalink: /javascript
   description: JavaScript
 
 industrial:
-  label: Industrial
+  label: industrial
   permalink: /industrial
   description: Industrial
 
 refrigeration:
-  label: Refrigeration
+  label: refrigeration
   permalink: /refrigeration
   description: Refrigeration
 
 remote:
-  label: Remote
+  label: remote
   permalink: /remote
   description: Remote
 
 eventful:
-  label: Eventful
+  label: eventful
   permalink: /eventful
   description: Eventful
 
 events:
-  label: Events
+  label: events
   permalink: /events
   description: Events
 
 tanzania:
-  label: Tanzania
+  label: tanzania
   permalink: /tanzania
   description: Tanzania
 
 operations:
-  label: Operations
+  label: operations
   permalink: /operations
   description: Operations
 
 solar:
-  label: Solar
+  label: solar
   permalink: /solar
   description: Solar

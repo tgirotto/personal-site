@@ -5,7 +5,7 @@ title: "A Google Pay for Venezuela"
 tags: [yapago, software]
 ---
 
-I am currently in Venezuela, visiting a dear friend. This being the first time in this country...
+I am currently in Venezuela, visiting a dear friend. While being here for the first
 
 I was surprised to see how widespread Binance is. 
 

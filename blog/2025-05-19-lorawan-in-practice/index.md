@@ -1,6 +1,6 @@
 ---
 slug: lorawan-in-practice
-title: "Running operations in Tanzania"
+title: "LoraWAN in practice"
 # authors: [tgirotto]
 tags: [lorawan]
 ---
