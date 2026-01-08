@@ -35,4 +35,12 @@ If business naturally trends toward centralisation for the sake of efficiency, t
 
 * Philantropy
 
+* Asset registries (land, IP, carbon credits)
+
+* Cross-border settlement
+
+* Infrastructure coordination (energy, compute, identity)
+
+* Situations where exit matters more than UX?
+
 In conclusion, maybe centralisation is not always a bug. Depending on the use case, centralisation is actually one of strongest features, and is needed, especially in the business world not just to guarantee piece of mind, but enable that relative specialisation that's at foundation of any economic system.
