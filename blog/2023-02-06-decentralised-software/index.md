@@ -34,3 +34,5 @@ If business naturally trends toward centralisation for the sake of efficiency, t
 * Voting systems
 
 * Philantropy
+
+In conclusion, maybe centralisation is not always a bug. Depending on the use case, centralisation is actually one of strongest features, and is needed, especially in the business world not just to guarantee piece of mind, but enable that relative specialisation that's at foundation of any economic system.
