@@ -26,7 +26,7 @@ const FeatureList: FeatureItem[] = [
     // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        I have built a remote monitoring system for refrigeration units in supermarkets and hospitals in Italy.
+        I have built an experimental remote monitoring system for refrigeration units in supermarkets and hospitals in Italy.
       </>
     ),
   },
@@ -62,7 +62,7 @@ const FeatureList: FeatureItem[] = [
     // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        I have used JavaScript and Node.js to industrial heat pumps for commercial and industrial settings in Italy.
+        I have developed experimental JavaScript and Node.js infrastructure to industrial heat pumps for commercial and industrial settings.
       </>
     ),
   },
