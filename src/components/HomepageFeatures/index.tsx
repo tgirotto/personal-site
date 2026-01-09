@@ -62,7 +62,7 @@ const FeatureList: FeatureItem[] = [
     // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        I have developed experimental JavaScript and Node.js infrastructure to industrial heat pumps for commercial and industrial settings.
+        I have developed experimental JavaScript and Node.js to control industrial heat pumps for commercial and industrial settings.
       </>
     ),
   },
