@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Overview
+# Discovery phase 1 - Electric SQL
 
 Opencollect is an open source version of [Epicollect](https://five.epicollect.net/).
 
@@ -31,3 +31,11 @@ In order to minimize risk, we want to focus on the trickiest part of the system 
 2) Create a simple Vue app that talks to Supabase.
 
 Once these steps are developed, the core premise will be validated, and we will regroup and organise work better.
+
+### Takeaways
+
+* Electric SQL is not a good fit. In fact, it does not handle writes. Also, it adds complexity in a project where simplicity is paramount.
+
+* Tanstack becomes then redudant. The fewer moving parts, the better.
+
+* Supabase confirmed.
