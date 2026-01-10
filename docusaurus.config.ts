@@ -104,10 +104,6 @@ const config: Config = {
     footer: {
       links: [
         {
-          label: 'tommaso.girotto91@gmail.com',
-          href: 'mailto:hello@tommaso.girotto91@gmail.com',
-        },
-        {
           label: 'Github',
           href: 'https://github.com/tgirotto',
         },

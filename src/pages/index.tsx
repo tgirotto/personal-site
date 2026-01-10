@@ -18,11 +18,11 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <a
+          <Link
             className="button button--secondary button--lg"
-            href="mailto:your-email@example.com?subject=Hiring Inquiry&body=Hi Tommaso,%0D%0A%0D%0AI'm interested in discussing potential opportunities.%0D%0A%0D%0ABest regards">
+            to="/contact">
             Get in touch
-          </a>
+          </Link>
           <Link
             className="button button--secondary button--lg"
             to="/work/intro">

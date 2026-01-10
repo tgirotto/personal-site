@@ -5,40 +5,42 @@ title: "A Google Maps for events?"
 tags: [eventful, events]
 ---
 
-Every few months I see a new "events" app come up. By "events" I mean music concerts, sport competitions, social gatherings, art shows and more. I definitely see the need for such a mainstream app, for several reasons:
+Every few months I see a new **events** app come up. By "events" I mean music concerts, sport competitions, social gatherings, art shows and more. It seems that, at some point, every developer has thought of showing on a list or map an index of all the events that are happening in their city. I definitely see the appeal of the idea, for several reasons:
 
-* Like an increasing amount of people, I am burned out by digital tools, would rather avoid and looking for ways to spend more time and opportunities to meet new people offline.
+* As a frequent traveller, I often find myself in unfamiliar contexts, and would like to know what's happening around me.
 
-However, I have not seen any catch up
+* I am not on social media, nor am I thrilled at the idea of being exposed to mountains of social media slop just to know what's happening around me.
 
-<!-- truncate -->
+* Like an increasing amount of people, I am looking for opportunities to meet new friends offline. An events app would help me navigate offline opportunities.
+
+Yet, the domains of those apps that I see periodically launch on Hacker News inevitably become vacant after a year, and we are back to square one. Why don't we have a "Netflix of events" yet?
 
 ### The landscape
 
-These are the available solutions I can think of:
+There are several solutions that currently sit at the edge of an "index of events":
 
-* [Eventbrite](https://www.eventbrite.com/), [Meetup](https://meetup.com/), [Luma](https://luma.com/). These services are specialised on social events, and serve as platforms to help organisers schedule, promote and manage events, while helping attendees discover and rsvp. They are probably the closest thing to what a "Google Maps for Events" should look like. By only focusing on social gatherings, they completely ignore all events that are social, but not peer organised (eg a music concert)
+* [Eventbrite](https://www.eventbrite.com/), [Meetup](https://meetup.com/), [Luma](https://luma.com/). These services are specialised on social events, and serve as platforms to help organisers schedule, promote and manage events, while helping attendees discover and rsvp. They are probably the closest thing to what a "Google Maps for Events" should look like. By only focusing on social gatherings, they gloss over all those events that are social, but not peer organised (eg a music concert).
 
-* Social media. This is probably the biggest one. Whatsapp groups, Instagram accounts hold massive amounts of information about what is happening and where.
+* Social media. This is probably the biggest one. Whatsapp groups, Instagram accounts hold massive amounts of information about what is happening and where. However, their incentive to expose users to as much content as possible defeats the very attempt of getting offline mentioned above.
 
-* [Facebook Events](https://www.facebook.com/events/).
+* [Facebook Events](https://www.facebook.com/events/). Again, social media.
 
-* [Songkick](https://www.songkick.com/) and similar music concert apps. Since they are only focused on music events, they net they cast is not wide enough to capture mainstream interest.
+* [Songkick](https://www.songkick.com/) and similar music concert apps are fairly popular in the music world. However, since they are only focused on music events, they net they cast is not wide enough to capture mainstream interest.
 
 * Ticketing platforms. [Ticketmaster](https://www.ticketmaster.com/) only promote events they manage.
 
-* City official web sites. Berlin is a [great example](https://www.berlin.de/en/tickets/today/).
+* City official web sites. Berlin is a [great example](https://www.berlin.de/en/tickets/today/). However, these are fragmented, often publicly-maintained web sites that only report geographically siloed data.
 
-* Location-specific newsletters and blogs. In expat and nomad hotspots like Berlin, London or Madrid, niche services like [Social Butterfly radar](https://socialbutterflyradar.substack.com/) are common. However, they are fragmented.
+* Location-specific newsletters and blogs. In expat and nomad hotspots like Berlin, London or Madrid, niche services like [Social Butterfly radar](https://socialbutterflyradar.substack.com/) are common. However, just like city web sites, they are fragmented and hyperlocal.
 
-* [Fever](https://feverup.com/en) is positioned as a commercial product rather than an index. While Google Maps feels like a free index (I'd say on a similar level to Wikipedia), Fever feels like a closed, commercial system. In other words, if an event is not monetizable, it's not on Fever.
+* [Fever](https://feverup.com/en) and similar services are positioned as a commercial product rather than an index. While Google Maps feels like a free index (I'd say on a similar level to Wikipedia), Fever feels like a closed, commercial system, where non-monetizable events are not reported.
 
-* Airbnb experiences, Tripadvisor experiences all offer custom, on demand experiences.
+* [Airbnb experiences](https://www.airbnb.com/s/experiences), [Tripadvisor Activities](https://www.tripadvisor.it/Attractions-g187791-Activities-Rome_Lazio.html) and similar services all offer custom, on demand experiences that are not exactly events.
 
 
-### Why haven't the Googles of the world done it?
+### Why hasn't Googles done it?
 
-Somehow, big tech seems to have avoided this problem so far. Google is probably the big tech firm that would be best positioned to tackling it. In fact, event data could be presented either as a feature in their maps product, in the form of smart cards in the search engine or as a standalone product.
+Somehow, big tech seems to have avoided this problem so far. Google is probably the firm that would be best positioned to tackling the problem of events. In fact, event data could be presented either as a feature in their maps product, in the form of smart cards in the search engine or as a standalone product.
 
 I can think of a few reasons why this might not have happened yet: 
 
@@ -46,11 +48,15 @@ I can think of a few reasons why this might not have happened yet:
 
 * It is not profitable enough. However, Google seems to have shipped many products in the name of collecting information.
 
-* Unlike information about businesses on Google Maps, information about events changes too quickly.
-
-* Orphan events. While information about businesses on Google Maps is clearly owned by a business, some events are not really owne
+* Unlike information about businesses on Google Maps, information about events changes too quickly. However, products like [Google Travel](https://www.google.com/travel/) also expose information that changes quickly.
 
 * Businesses on Google Maps want to be found by definition. This is not necessarily true for events, where exclusivity is sometimes a feature.
+
+On the other hand, I can also think of reasons why a company like Google might be interested in building something like this:
+
+* It would improve their search business.
+
+* It would add value to their maps product by gathering more data about what events are people are more interested in.
 
 ### Doubts
 
