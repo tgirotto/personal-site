@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <Layout title="Contact" description="Contact Page">
       <main style={{maxWidth: '600px', margin: '3rem auto', padding: '0 1rem'}}>
-        <h1>Contact Me</h1>
+        <h1>Get in touch</h1>
         <p>Have a question? Drop me a message below.</p>
         
         <form action="https://formspree.io/f/xwvveapo" method="POST">
