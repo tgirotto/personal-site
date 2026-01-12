@@ -1,6 +1,6 @@
 ---
 slug: yapago
-title: "A Google Pay for Venezuela"
+title: "Google Pay for Venezuela"
 # authors: [tgirotto]
 tags: [yapago, software]
 ---

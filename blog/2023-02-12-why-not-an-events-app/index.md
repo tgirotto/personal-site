@@ -1,6 +1,6 @@
 ---
 slug: a-universal-events-app
-title: "A Google Maps for events"
+title: "Google Maps for events"
 # authors: [tgirotto]
 tags: [eventful, events]
 ---
