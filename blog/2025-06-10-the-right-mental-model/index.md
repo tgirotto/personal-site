@@ -19,6 +19,14 @@ If we want the system to be minimally useful, we need to lower the barrier to en
 
 Said leverage would be expressed through encapsulation, where arbitrary amounts of actions can be **composed** into a higher level, composite action. Just like in any other kind of registry system, dependencies would need to be resolved and fetched as a part of action execution. As a result, in theory we would be able to compose arbitrary amounts of actions into a single action, which in turn means not only that a set of actions can all be executed with a single command, but that those actions can also be reused across.
 
+### State drift
+
+The main challenge with this model is state drift. Safety features like idempotency and state reconciliation guarantees would be hard to offer with the action model for two main reasons:
+
+* Because there is no one-to-one match between intent and result, the action model itself makes it hard to guarantee consistency.
+
+* Docker or WASM packages being agnostic means that it's impossible to make any assumption about the logic they are running, which means that the implementation of mechanisms to avoid state drift is completely left to the developer of every single action.
+
 ### Conclusion
 
 Shifting our mental model from **resources** to **actions** fundamentally redefines the goal of deployment. We move beyond managing the state of isolated cloud providers and start focusing on intent. By treating deployment as a series of composable, shareable tasks, we are building a collaborative language for software delivery — with Docker and WASM serving as the technical engine that makes this portable, executable paradigm possible.
