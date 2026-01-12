@@ -27,6 +27,8 @@ Some of my experience in building transaction systems for solar mini-grids in Su
 
 2) Both sender and receiver are notified of the transaction.
 
+<!-- ![Yapago Screenshot](./yapago.jpeg) -->
+
 ### The on-ramp problem
 
 Great, so we figured out the basics of how to get users to send funds to each other. However, such system is only useful if it allows users to freely move money in and out of the system. In other words: how would users convert their funds into fiat and viceversa? Here is where things get tricky. In fact, while implementing the transaction engine is fairly straight forward, creating a bridge between this system and the local banking system is a compliance problem.
