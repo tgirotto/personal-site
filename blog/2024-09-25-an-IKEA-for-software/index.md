@@ -1,6 +1,6 @@
 ---
 slug: an-ikea-for-software
-title: "An IKEA for software"
+title: "IKEA for software"
 # authors: [tgirotto]
 tags: [starthub]
 ---
