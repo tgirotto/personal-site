@@ -5,7 +5,7 @@ title: "A Google Pay for Venezuela"
 tags: [yapago, software]
 ---
 
-I am currently in Venezuela, visiting a dear friend. While I fell in love with this country, I had the chance to also witness the systemic inefficiencies of this place. Some are tragic, like the lack of electricity, basic healthcare services and safety, while others are much more mundane (even if still annoying), like the limited choice of products at the supermarket or the lack in digital payment solutions. So I started wondering: what could a Google Pay for Venezuela lookg like?
+I am currently in Venezuela, visiting a dear friend. While I fell in love with this country, I had the chance to also witness the systemic inefficiencies of this place. Some are tragic, like the lack of electricity, basic healthcare services and safety, while others are much more mundane (even if still annoying), like the limited choice of products at the supermarket or the lack in digital payment solutions. So I started wondering: what could a Google Pay for Venezuela look like?
 
 ### Landscape
 
@@ -27,7 +27,7 @@ Some of my experience in building transaction systems for solar mini-grids in Su
 
 2) Both sender and receiver are notified of the transaction.
 
-### In and out of the system
+### The on-ramp problem
 
 Great, so we figured out the basics of how to get users to send funds to each other. However, such system is only useful if it allows users to freely move money in and out of the system. In other words: how would users convert their funds into fiat and viceversa? Here is where things get tricky. In fact, while implementing the transaction engine is fairly straight forward, creating a bridge between this system and the local banking system is a compliance problem.
 
