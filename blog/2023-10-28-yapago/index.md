@@ -39,4 +39,4 @@ Great, so we figured out the basics of how to get users to send funds to each ot
 
 ### Conclusion
 
-At the moment it looks like, with my resources, connections and commitments, the best I can do is a wrapper around current solutions (eg Binance). This would remove the core value of my solution, and make it too dependent on the current solutions, which could easily eliminate my solution by implementing a new lightweight interface.
+At the moment it looks like, with my resources, connections and commitments, the best I can do is a wrapper around current solutions (eg Binance). This would remove the core value of my solution while making it overly dependent on incumbent services, which could easily eliminate my solution by implementing a new lightweight interface.
