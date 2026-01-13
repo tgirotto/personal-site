@@ -152,13 +152,6 @@ body {
   color: var(--ifm-link-color);
 }
 
-/* Disable all menu links in the past work section (docs sidebar), except opencollect and work/intro */
-.theme-doc-sidebar-container .menu__link:not([href*="opencollect"]):not([href*="/work/intro"]):not([href="/work/intro"]) {
-  pointer-events: none;
-  cursor: not-allowed;
-  opacity: 0.6;
-}
-
 /* Buttons use accent color */
 .button--primary {
   background-color: var(--ifm-link-color);
