@@ -22,7 +22,7 @@ After doing some research, I have come across [KASM](https://kasm.com/), which o
 
 [Flowcase](https://github.com/flowcase/flowcase) emerged as an attempt to provide an open-source alternative to KASM, focusing on the same container-to-browser streaming logic. The codebase is significantly younger. During testing, the lack of community support and documentation made it difficult to troubleshoot. More crucially, session recording for auditing and security—are currently missing, which is a dealbreaker for this project.
 
-### Iteration 3: Fly.io
+### Iteration 4: Fly.io
 
 Let's change strategy: let's move from managing containers locally to deploying them on edge infrastructure instead. [Fly.io](https://fly.io) allows us to run firecracker microVMs close to the user, reducing the physical distance data has to travel (latency). What's particularly interesting is that, wsing their Scale-to-zero capability, we only pay for the seconds the browser is actually running. This solves the infrastructure management problem by treating the browser as a disposable, serverless function.
 
