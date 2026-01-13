@@ -11,7 +11,6 @@ In order to make things simpler, we will focus on an example of a composite acti
 1) Get the latitude and longitude by location name. This is defined as:
 
 ```
-
 {
   "name": "openweather-coordinates-by-location-name",
   "description": "Get openweather coordinates by location name",
