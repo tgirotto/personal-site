@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Processing orders
 
+Below is the function running the MVP of the transaction engine.
+
 ```
 async run() {
   // Fetch supabase client
