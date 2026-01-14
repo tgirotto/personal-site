@@ -26,12 +26,8 @@ After doing some research, I have come across [KASM](https://kasm.com/), which o
 
 Let's change strategy: let's move from managing containers locally to deploying them on edge infrastructure instead. [Fly.io](https://fly.io) allows us to run firecracker microVMs close to the user, reducing the physical distance data has to travel (latency). What's particularly interesting is that, wsing their Scale-to-zero capability, we only pay for the seconds the browser is actually running. This solves the infrastructure management problem by treating the browser as a disposable, serverless function.
 
-### An unresolved challenge
+### Iteration 5: VPS
 
-A significant bottleneck remains with the Brave browser's initial launch. When a Chromium-based browser starts in a "fresh" container, it performs several heavy operations:
+While evaluating Fly.io, I encountered a significant 30s+ cold-start delay across all heavy GUI applications (Brave, LibreOffice). Further investigation revealed that Fly.io lazy-loads volume content. This architecture is optimized for small microservices but introduces high latency for applications with large file footprints.
 
-* Profile Initialization: creating the default user directory and SQLite databases.
-
-* GPU/Shader Caching: compiling shaders for the specific hardware environment.
-
-* Component updates: checking for "Widevine" or "Ad-blocker" updates immediately upon boot.
+Comparative testing on a standard VPS confirmed that local SSD speeds resolve the issue. Consequently, I am moving away from Fly.io to avoid these storage latency penalties. My next step is to implement a simplified orchestration and routing layer—a 'poor man’s K8s'—on top of traditional VPS instances to maintain performance without the complexity of a full Kubernetes cluster.
