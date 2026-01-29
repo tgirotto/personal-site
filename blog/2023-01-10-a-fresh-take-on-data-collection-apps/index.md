@@ -48,7 +48,7 @@ Rural surveys are almost always location-focused.
 
 Apps like ODK and Epicollect allow to upload images, audio files and more. S3 (or S3-compatible layers) provides virtually infinite, low-cost storage for these files, keeping the primary database lean and focused on searchable metadata.
 
-### The New Backends: Supabase & Convex
+### Supabase & Convex
 
 In recent years, platforms like [Supabase](https://supabase.com/) and [Convex](https://www.convex.dev/) have had an enormous impact on how we build. They allow a small team to deploy production-Grade infrastructure in hours.
 
