@@ -44,13 +44,13 @@ Rural surveys are almost always location-focused.
 * **Postgres** provides the relational integrity needed to link complex hardware hierarchies (e.g., matching a specific battery serial number to a solar panel and a customer contract).
 * **PostGIS** turns your database into a geographic engine. It allows for advanced queries like: *"Which solar arrays are within a 10km radius of the rising flood zone?"* Standard JSON-based databases simply cannot compete with this spatial intelligence.
 
-### Storage: S3 (The Heavy Lifter)
+### Storage: S3
 
-Field work requires "Proof of Work"—photos of installations, signed digital contracts, or audio site surveys. S3 (or S3-compatible layers) provides virtually infinite, low-cost storage for these files, keeping your primary database lean and focused on searchable metadata.
+Apps like ODK and Epicollect allow to upload images, audio files and more. S3 (or S3-compatible layers) provides virtually infinite, low-cost storage for these files, keeping the primary database lean and focused on searchable metadata.
 
 ### The New Backends: Supabase & Convex
 
-In recent years, platforms like Supabase and Convex have had an enormous impact on how we build. They allow a small team to deploy "Production-Grade" infrastructure in hours.
+In recent years, platforms like [Supabase](https://supabase.com/) and [Convex](https://www.convex.dev/) have had an enormous impact on how we build. They allow a small team to deploy production-Grade infrastructure in hours.
 
 * **No Vendor Lock-in:** Supabase is built on open-source standards (Postgres, GoTrue, PostgREST). If you need to move, you can export your entire database and self-host. Convex has also recently open-sourced its backend, offering similar portability.
 * **Standardized Auth & RBAC:** They offer built-in, secure solutions for social login and complex Role-Based Access Control (RBAC).
@@ -58,4 +58,4 @@ In recent years, platforms like Supabase and Convex have had an enormous impact 
 
 ### Conclusion
 
-The "Old Guard" of data collection paved the way, but the modularity of **Flutter**, **TypeScript**, and **Postgres** is the future. For the solar sector, and any industry working in the "last mile", this stack isn't just a technical preference; it's a way to do more with less, empowering local developers to build the tools their communities actually need.
+While the "Old Guard" of data collection paved the way, the modularity of **Flutter**, **TypeScript**, and **Postgres** might be the future. For the solar, health, agro sectors, and for any industry working in the "last mile", this stack could be a way to do more with less, empowering local developers to build the tools their communities actually need.
