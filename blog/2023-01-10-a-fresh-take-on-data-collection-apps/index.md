@@ -2,7 +2,7 @@
 slug: a-fresh-take-on-offline-data-collection
 title: "A fresh take on offline data collection"
 # authors: [tgirotto]
-tags: [data-collection, flutter, supabase, solar, tanzania]
+tags: [supabase, solar]
 ---
 
 Working in the solar sector in Tanzania taught me a hard truth: **data collection in the field is a battle of attrition.** Between spotty 2G connections, rugged hardware, and the sheer complexity of relational data (linking customers to assets to maintenance logs), the tools we use can either be our greatest ally or our biggest bottleneck.
@@ -22,7 +22,6 @@ While these tools brought incredible value, technology has moved on. We can now 
 * **Universal compatibility:** Natively compatible with as many platforms as possible (Android, iOS, Web).
 * **Enterprise-backed:** Built on stable frameworks with long-term industry support.
 
----
 
 ### Frontend: Flutter
 
