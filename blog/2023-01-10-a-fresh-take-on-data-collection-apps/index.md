@@ -9,8 +9,9 @@ Working in the solar sector in Tanzania taught me a hard truth: **data collectio
 
 For years, the industry has relied on the "Old Guard":
 
-* [**Epicollect:**](https://five.epicollect.net/) Great for simplicity, but closed-source. This means it cannot be easily customized. The consequence is that features like webhooks—essential for modern automation—are still unavailable.
+* [**Epicollect:**](https://five.epicollect.net/) Great for simplicity and the fact that it's free (entire companies were built on top of it, so a big thank you to Imperial College), but closed-source. This means it cannot be easily customized. The consequence is that features like webhooks—essential for modern automation—are still unavailable.
 * [**ODK (Open Data Kit):**](https://getodk.org/) The gold standard for many, but reliant on the aging XML/XLSForm standard, which can feel restrictive for complex app logic.
+* [**KoboToolbox:**](https://www.kobotoolbox.org/) Popular for humanitarian surveys and rapid deployments, but customization beyond core forms can be limiting.
 * [**CommCare:**](https://dimagi.com/commcare/) Very powerful, but primarily suited for large-scale enterprise clients with significant configuration budgets.
 
 ### Field data collection: Can we do more with less?
